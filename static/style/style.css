@@ -2,3 +2,28 @@ body {
     font-family: 'Playfair Display', serif;
     font-family: 'Ubuntu', sans-serif;
 }
+
+.link {
+    color: #7D7D7D;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: none;
+    font-family: 'Playfair Display';
+    transition-duration: 0.4s;
+    margin: 0px 99px 0 0;
+}
+
+.header {
+    text-align: center;
+}
+
+.header2 {
+    margin: 71px 315px 0 315px;
+}
+
+.link:hover {
+    transition-duration: 0.7s;
+    color: #03A9F4;
+}
