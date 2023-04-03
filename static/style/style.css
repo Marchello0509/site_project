@@ -66,6 +66,26 @@ body {
     margin: 40px 0 0 300px;
 }
 
-.block2 {
-    
+.main {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.LM {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #626262;
+    border: 1px solid #626262;
+    padding: 20px 48px 20px 48px;
+    background-color: white;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+    margin: 90px 0 66px 0;
 }
