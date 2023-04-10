@@ -31,7 +31,6 @@ body {
 .img1 {
     width: 420px;
     height: 280px;
-    margin: 92px 0 0 300px;
 }
 
 .p1 {
@@ -41,7 +40,7 @@ body {
     font-weight: 300;
     font-size: 14px;
     line-height: 16px;
-    margin: 62px 0 0 300px;
+    margin: 32px auto;
 }
 
 .p2 {
@@ -51,7 +50,7 @@ body {
     font-size: 30px;
     line-height: 40px;
     color: #626262;
-    margin: 32px 0 0 300px;
+    margin: 32px auto;
 }
 
 .text1 {
@@ -63,13 +62,15 @@ body {
     color: #626262;
     width: 420px;
     height: 76px;
-    margin: 40px 0 0 300px;
 }
 
 .main {
+    width: 1000px;
     display: flex;
-    width: 100%;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 130px 65px;
+    margin: 92px auto ;
 }
 
 .LM {
